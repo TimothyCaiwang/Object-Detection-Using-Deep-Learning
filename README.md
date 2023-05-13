@@ -6,5 +6,9 @@ Due to the GPU computational limitations, deep learning models cannot handle the
 
 The optimal model during the training process was applied to each image patch to extract boundaries of each strawberry plant. The detection results of image patches are then stitched to generate a shp format boundary file based on the algorthim proposed by Carvalho et al. (2020).
 
+An strawberry canopy instance segmentation example was shown as follows:
+
+![image](https://github.com/TimothyCaiwang/object-detection-using-deep-learning/assets/41359035/902f40bf-b40f-4f73-9167-8e5f88739c52)
+
 
 Carvalho, O. L. F. D., de Carvalho Júnior, O. A., Albuquerque, A. O. D., Bem, P. P. D., Silva, C. R., Ferreira, P. H. G., ... & Borges, D. L. (2020). Instance segmentation for large, multi-channel remote sensing imagery using mask-RCNN and a mosaicking approach. Remote Sensing, 13(1), 39.
